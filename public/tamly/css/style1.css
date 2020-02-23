@@ -1,0 +1,215 @@
+@media (min-width: 1200px){
+    .container {
+        width: 1280px;
+    }
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url('../font/BRANDONTEXT-MEDIUM.OTF');
+}
+.thanthai{
+    background: linear-gradient(261.43deg, #B32020 -27.03%, #6B0B67 92.79%);
+}
+@media (min-width: 1400px){
+    .container {
+        width: 1380px;
+    }
+}
+@media (min-width: 1600px){
+    .container {
+        width: 1380px;
+    }
+}
+
+@media (min-width: 1900px){
+    .container {
+        width: 1380px;
+    }
+}
+.datepicker{
+    z-index: 10000!important;
+}
+.width100{
+    width: 100px;
+}
+.inile100{
+    display: inline-block;
+    width: 100px;
+}
+*{
+    font-family: myFirstFont;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.back-ground-image1{
+    background-image: url("../img/4d.png");
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.container-fluid .text-class{
+  color: rgba(121, 34, 115, 1);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    display: block;
+}
+ button{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold!important;
+    color: #A22D48;;
+     background-color: #ff000000;
+     font-family: sans-serif;
+     border: 1px solid #A22D48!important;
+}
+.btn{
+    display: block;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.btn-outline-primary:hover{
+    color: #F7ABA1;
+    font-weight: bold;
+    background: linear-gradient(261.43deg, #B32020 -27.03%, #6B0B67 92.79%);
+}
+.margin-auto{
+    display: block;
+    margin: auto;
+
+}
+.padding-40px{
+    padding-bottom: 50px;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 500px;
+        margin: 7.75rem auto;
+    }
+}
+.modal-header{
+    background: linear-gradient(261.43deg, #B32020 -27.03%, #6B0B67 92.79%);
+}
+.modal-header .close{
+    text-shadow: 0 0px 0 #fff;
+    opacity: 1;
+    font-weight: 100!important;
+    padding: 0;
+    margin: 0;
+}
+.modal-title {
+    margin: auto;
+    color: #FFFFFF;
+}
+.form-inline .form-group{
+   display: block;
+    margin-bottom: 30px;
+}
+.form-inline .form-group label{
+    color: #A22D48;
+}
+.thanthai{
+    background: linear-gradient(261.43deg, #B32020 -27.03%, #6B0B67 92.79%);
+}
+#btn-thanthai{
+    margin: 15px auto;
+}
+#btn-nhankhau{
+    margin: 15px auto;
+}
+#btn-tuonghoc{
+    margin: 15px auto;
+}
+@media screen and (max-width: 700px) {
+    .maytinh {
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
+    .desktop{
+        display:none ;
+    }
+    .padding-40px button{
+        margin: 20px auto;!important;
+    }
+    .disnone{
+        display: none;
+    }
+    .width74{
+        width: 74%;
+    }
+
+}
+@media screen and (min-width: 700px) {
+
+    .thanhdocnone{
+        display: none;
+    }
+    .dienthoai{
+        display: none;
+    }
+    .modal-body .form-inline .form-group .width74 {
+        width: 74%!important;
+    }
+
+}
+.thanh-doc{
+    margin-right: 7px;
+    width: 4px;
+    height: 50px;
+    background: #A22D48;
+}
+.floating{
+    float: left;
+    -webkit-animation-name: Floatingx;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-name: Floating;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+
+@-webkit-keyframes Floatingx{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 15px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+@-moz-keyframes Floating{
+    from {-moz-transform:translate(0, 0px);}
+    65% {-moz-transform:translate(0, 15px);}
+    to {-moz-transform: translate(0, -0px);}
+}
+
+
+.scaling{
+    float: left;
+    -webkit-animation-name: scalex;
+    -webkit-animation-duration:3s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:ease-in-out;
+    -moz-animation-name: scale;
+    -moz-animation-duration:3s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-timing-function:ease-in-out;
+}
+
+@-webkit-keyframes scalex{
+    from {-webkit-transform: scale(0.9);}
+    65% {-webkit-transform: scale(1.0);}
+    to {-webkit-transform: scale(0.9);}
+}
+
+@-moz-keyframes scale{
+    from {-moz-transform: scale(0.9);}
+    65% {-moz-transform: scale(1.0);}
+    to {-moz-transform: scale(0.9);}
+}

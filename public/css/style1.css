@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+.back-ground-image{
+    background-image: url("../img/Group.png");
+    height: 100vh;
+}
+.div-left{
+    margin-left: 80px;
+}
+.div-left .top-33{
+    margin-top: 33px;
+    margin-bottom: 40px;
+}
+.div-left .top-27{
+    margin-top: 27px;
+}
+.div-left .top-27 span{
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.div-left .thanh-doc{
+    margin-right: 7px;
+    width: 2px;
+    height: 40px;
+    background: #69D7DD;
+}
+.div-right {
+    position: relative;
+
+}
+.div-right span{
+    line-height: 120%;
+    color: #69D7DD;
+    font-size: 12px;
+    display: block;
+}
+.div-right .text-right-1{
+    position: absolute;
+    top: 70px;
+    left: 20%;
+}
+.div-right .text-right-2{
+    position: absolute;
+    top: 150px;
+    left: 13%;
+}
+.div-right .text-right-3{
+    position: absolute;
+    top: 230px;
+    left: 5%;
+}
+.div-right .text-right-4{
+    position: absolute;
+    top: 330px;
+    left: 0%;
+}
+.div-right .text-right-5{
+    position: absolute;
+    top: 430px;
+    left: 5%;
+}
+.div-icon button{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #409EE9;
+}
+.btn{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.btn-outline-primary:hover{
+    color: #102571;
+    font-weight: bold;
+    background: linear-gradient(256.45deg, #46A5F1 0.33%, #38DED4 112.15%);
+}
+.modal-dialog {
+    max-width: 500px;
+    margin: 11.75rem auto!important;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 500px;
+        margin: 10.75rem auto!important;
+    }}
+.modal-header{
+    background: linear-gradient(249.87deg, #46A5F1 0.33%, #38DED4 112.15%);;
+}
+.modal-header .close{
+    text-shadow: 0 0px 0 #fff;
+    opacity: 1;
+    font-weight: 100!important;
+    padding: 0;
+    margin: 0;
+}
+.modal-title {
+    margin: auto;
+    color: #FFFFFF;
+}
+.thanthai{
+    background: #69D7DD;
+}
+.form-group .form-style{
+    padding: .375rem 4.75rem!important;
+    margin-left: 80px;
+}
+.form-group .form-style1{
+    margin-left: 80px;
+}
+.form-group .form-style2{
+    margin-left: 70px;
+}
+.form-group .form-style3{
+    margin-left: 58px;
+}
+.form-group .form-style4{
+    margin-left: 90px;
+}
+.form-group .form-style5{
+    margin-left: 70px;
+}
+.form-group label{
+    font-size: 15px;
+    line-height: 24px;
+    color: #69D7DD;
+}

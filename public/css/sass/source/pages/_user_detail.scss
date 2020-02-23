@@ -1,0 +1,25 @@
+.chosen-container-multi {
+  .search-choice {
+    background-image: none !important;
+    background-color: #1bb394 !important;
+    color: #fff !important;
+  }
+}
+.edit-btn-group {
+  button {
+    margin-right: 5px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+// Single info page
+.dashboard-page {
+  .dashboard-page-title {
+    font-size: 24px;
+    margin: 0 0 20px;
+    padding: 0;
+    text-overflow: ellipsis;
+  }
+}
